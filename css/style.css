@@ -1,0 +1,212 @@
+/* font-family */
+body {
+  font-family: "Kanit", sans-serif;
+}
+/* container-style*/
+.container {
+  width: 1440px;
+  margin: auto;
+}
+/* header */
+header {
+  padding: 6px 82px;
+  background-color: #fa793c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-burger {
+  display: none;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+span {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.header-nav-and-user-icon {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.header-list {
+  display: flex;
+  column-gap: 36px;
+}
+.header-link {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* section-1 */
+.section-1 {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/cover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+}
+.section-1-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-1-button {
+  width: 243px;
+  height: 72px;
+  opacity: 1px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fa793c;
+  font-weight: 400px;
+  font-style: Regular;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+/* section-2 */
+.section-2 {
+  background-color: #fa793c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 82px;
+  row-gap: 34px;
+}
+.section-2-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-2-article-container {
+  display: flex;
+  column-gap: 20px;
+}
+.section-2-article-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 1s linear;
+}
+.section-2-article-image:hover {
+  box-shadow: 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green;
+}
+/* section-3 */
+.section-3 {
+  background-color: #000000;
+  padding: 72px 82px;
+}
+.section-3-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.section-3-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+.section-3-article-card {
+  background-color: #fa793c;
+  border-radius: 8px;
+  width: 412px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  cursor: pointer;
+  transition: 1s linear;
+}
+.section-3-article-card-image {
+  width: 100%;
+  height: 243px;
+  object-fit: cover;
+}
+.article-card-price-and-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-3-article-card-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.section-3-article-card-price {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.section-3-article-card:hover {
+  box-shadow: 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 50px green;
+}
+/* footer */
+footer {
+  background-color: #fa793c;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 82px;
+}
+.footer-page-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer-page-link {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-social-media-list {
+  display: flex;
+  column-gap: 24px;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.footer-address-list {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.footer-address-link {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
