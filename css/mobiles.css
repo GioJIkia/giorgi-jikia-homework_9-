@@ -77,7 +77,7 @@
     row-gap: 0px;
     column-gap: 24px;
   }
-  .footer-address-link {
+  p {
     display: none;
   }
 }

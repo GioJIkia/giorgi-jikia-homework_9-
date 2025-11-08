@@ -198,15 +198,13 @@ address {
   flex-direction: column;
   row-gap: 16px;
 }
-.footer-address-list {
-  display: flex;
-  column-gap: 16px;
-  align-items: center;
-}
 .footer-address-link {
   font-weight: 300;
   font-style: Light;
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
 }
