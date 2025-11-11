@@ -77,7 +77,7 @@
     row-gap: 0px;
     column-gap: 24px;
   }
-  p {
+  span {
     display: none;
   }
 }
